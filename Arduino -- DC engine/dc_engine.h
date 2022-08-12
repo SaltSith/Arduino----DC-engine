@@ -1,5 +1,7 @@
 #pragma once
 
+#include <stdio.h>
+
 typedef enum {
 	DC_ENGINE_FORWARD = 0,
 	DC_ENGINE_BACKWARD,
