@@ -20,6 +20,10 @@ void dc_engine::init(void)
 
 void dc_engine::start(void)
 {
+	if (this->engine_type == DC_ENGINE_BI_DIRECTION) {
+		return;
+	}
+
 	digitalWrite(this->pin_a, HIGH);
 }
 
